@@ -228,12 +228,13 @@ footer .footer-right{
 /* タブレット */
 @media screen and (max-width: 960px){
 .img-box{
-	display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.img-box li:last-child{
+.img-box li{
 	margin-top: 30px;
+	margin-right: 0;
 }
 
 .contact .form{
